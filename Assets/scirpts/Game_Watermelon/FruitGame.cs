@@ -142,7 +142,7 @@ public class FruitGame : MonoBehaviour
         {
             Rigidbody2D rb = allFruits[i].GetComponent<Rigidbody2D>();
 
-            if (rb != null && rb.velocity.magnitude < 0.1f && allFruits[i].transform.position.y > gameOverHeight) ;
+            if (rb != null && rb.velocity.magnitude < 0.1f && allFruits[i].transform.position.y > gameOverHeight);
             {
                 isGameOver = true;
                 Debug.Log("게임오버");
